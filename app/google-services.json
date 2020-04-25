@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "595656754592",
+    "firebase_url": "https://twitteranalytics-f965d.firebaseio.com",
+    "project_id": "twitteranalytics-f965d",
+    "storage_bucket": "twitteranalytics-f965d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:595656754592:android:3ba77ac63bbcb47b1b90c5",
+        "android_client_info": {
+          "package_name": "com.appiadev.twitteranalytics"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "595656754592-bl61kuodo05e83ea74pc4khnmlqa8tol.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD57afbTBBtZc3PBaOlMk51M-VEMQt7V48"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "595656754592-bl61kuodo05e83ea74pc4khnmlqa8tol.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
