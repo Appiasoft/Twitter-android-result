@@ -7,7 +7,6 @@
     tools:context=".ui.main.fragments.dashboard.DevicesFragment">
 
     <com.anychart.AnyChartView
-        android:layout_marginTop="10dp"
         android:id="@+id/any_chart_view_kpi2"
         android:layout_width="match_parent"
         android:layout_height="match_parent"

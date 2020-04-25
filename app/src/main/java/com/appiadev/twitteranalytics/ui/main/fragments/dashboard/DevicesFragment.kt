@@ -38,7 +38,7 @@ class DevicesFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
         viewModel = ViewModelProviders.of(this).get(FirestoreViewModel::class.java)
         val pie = AnyChart.pie()
-
+        any_chart_view_kpi2.setProgressBar(view.findViewById(R.id.progress_bar))
         pie.setOnClickListener(object :
             ListenersInterface.OnClickListener(arrayOf("x", "value")) {
             override fun onClick(event: Event) {
@@ -72,7 +72,7 @@ class DevicesFragment : Fragment() {
                 .itemsLayout(LegendLayout.HORIZONTAL)
                 .align(Align.CENTER)
 
-            any_chart_view_kpi2.setProgressBar(view.findViewById(R.id.progress_bar))
+
             any_chart_view_kpi2.setChart(pie)
         }
 

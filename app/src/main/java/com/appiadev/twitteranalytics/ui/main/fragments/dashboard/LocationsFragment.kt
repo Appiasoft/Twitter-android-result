@@ -40,6 +40,8 @@ class LocationsFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
         viewModel = ViewModelProviders.of(this).get(FirestoreViewModel::class.java)
 
+        any_chart_view_kpi1.setProgressBar(view.findViewById(R.id.progress_bar))
+
         //KPI - 1
         val cartesian: Cartesian = AnyChart.column()
         val data: MutableList<DataEntry> = ArrayList()
@@ -71,7 +73,7 @@ class LocationsFragment : Fragment() {
             cartesian.xAxis(0).title("Localizacion")
             cartesian.yAxis(0).title("Repeticiones")
 
-            any_chart_view_kpi1.setProgressBar(view.findViewById(R.id.progress_bar))
+
             any_chart_view_kpi1.setChart(cartesian)
         }
 

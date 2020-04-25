@@ -40,6 +40,7 @@ class HashtagsFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         viewModel = ViewModelProviders.of(this).get(FirestoreViewModel::class.java)
+        any_chart_view_kpi3.setProgressBar(view.findViewById(R.id.progress_bar))
         val cartesian_kpi3: Cartesian = AnyChart.column()
         val data_kpi3: MutableList<DataEntry> = ArrayList()
         var column_kpi3: Column
@@ -67,9 +68,9 @@ class HashtagsFragment : Fragment() {
             cartesian_kpi3.tooltip().positionMode(TooltipPositionMode.POINT)
             cartesian_kpi3.interactivity().hoverMode(HoverMode.BY_X)
 
-            cartesian_kpi3.xAxis(0).title("Localizacion")
+            cartesian_kpi3.xAxis(0).title("Hashtags")
             cartesian_kpi3.yAxis(0).title("Repeticiones")
-            any_chart_view_kpi3.setProgressBar(view.findViewById(R.id.progress_bar))
+
             any_chart_view_kpi3.setChart(cartesian_kpi3)
         }
     }
