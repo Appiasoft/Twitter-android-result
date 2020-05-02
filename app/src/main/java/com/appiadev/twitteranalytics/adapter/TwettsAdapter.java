@@ -1,4 +1,4 @@
-package com.appiadev.twitteranalytics.ui.main.adapter;
+package com.appiadev.twitteranalytics.adapter;
 
 import android.content.Context;
 import android.view.LayoutInflater;

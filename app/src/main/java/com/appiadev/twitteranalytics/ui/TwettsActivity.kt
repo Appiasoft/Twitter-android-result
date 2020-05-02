@@ -5,7 +5,7 @@ import android.os.Bundle
 import androidx.lifecycle.ViewModelProviders
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.appiadev.twitteranalytics.R
-import com.appiadev.twitteranalytics.ui.main.adapter.TwettsAdapter
+import com.appiadev.twitteranalytics.adapter.TwettsAdapter
 import com.twovehiculo.android.helpers.FirestoreViewModel
 import kotlinx.android.synthetic.main.activity_twetts.*
 

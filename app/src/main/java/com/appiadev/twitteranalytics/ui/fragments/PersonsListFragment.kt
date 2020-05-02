@@ -10,7 +10,7 @@ import androidx.lifecycle.ViewModelProviders
 import androidx.recyclerview.widget.LinearLayoutManager
 
 import com.appiadev.twitteranalytics.R
-import com.appiadev.twitteranalytics.ui.main.adapter.PersonsAdapter
+import com.appiadev.twitteranalytics.adapter.PersonsAdapter
 import com.twovehiculo.android.helpers.FirestoreViewModel
 import kotlinx.android.synthetic.main.fragment_persons_list.*
 
